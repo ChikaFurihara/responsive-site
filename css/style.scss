@@ -19,14 +19,15 @@ $gray2: #e8e8e8;
 
 
 header {
-  img {
+  div{
+    background-image: url("../images/bg_sky.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 250px;
     @media (min-width: 769px){
       height: 500px;
-    }
+    }  
   }
 }
 
